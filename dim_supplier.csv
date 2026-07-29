@@ -1,0 +1,7 @@
+supplier_id,supplier_name,region,reliability_tier,standard_lead_time_days
+1,Global Trade Co.,China,Poor,20
+2,Prime Logistics Ltd,India,Good,7
+3,EuroSupply GmbH,Germany,Average,15
+4,FastTrack Distributors,USA,Good,10
+5,Value Sourcing Inc,Vietnam,Poor,25
+6,Regional Wholesale Hub,India,Good,5
