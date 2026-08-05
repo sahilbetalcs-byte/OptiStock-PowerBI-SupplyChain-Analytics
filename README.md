@@ -1,6 +1,6 @@
 # 📦 OptiStock Analytics — End-to-End Inventory & Supplier Performance Dashboard
 
-**An interactive Power BI Business Intelligence solution for inventory optimization, proactive replenishment decisions, and supplier delay risk analysis.**
+An interactive Power BI Business Intelligence solution for inventory optimization, proactive replenishment decisions, and supplier delay risk analysis.
 
 ---
 
@@ -29,19 +29,31 @@ Most BI dashboards only show *what happened*. **OptiStock shows what could happe
 
 ---
 
-## 📊 Dashboard Preview
+## 📸 Dashboard Preview
 
-### 1️⃣ Executive Overview
-![Executive Overview](images/executive_overview.png)
+### 1️⃣ Executive Overview Dashboard
+![Executive Overview](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/executive_overview_1_.png)
+*Displays core KPIs: $658.37K sales revenue, 72.80 inventory turnover, $1.64K dead stock, ABC class analysis*
+
+---
 
 ### 2️⃣ Inventory Health & Aging Analysis
-![Inventory Health & Aging Analysis](images/inventory_health_aging.png)
+![Inventory Health](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/inventory_health_aging__2_.png)
+*ABC classification and aging analysis to identify dead stock, fresh inventory, and slow-moving products*
 
-### 3️⃣ Replenishment & Supplier Performance ⭐
-![Replenishment & Supplier Performance](images/replenishment_supplier_performance.png)
+---
+
+### 3️⃣ Replenishment & Supplier Performance (with What-If Simulator)
+![Reorder Simulator](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/replenishment_supplier_performance_3_.png)
+*Interactive What-If slider for supplier delay scenarios, ROP flags, and on-time delivery tracking*
+
+---
 
 ### 4️⃣ Product-Level Deep Dive
-![Product-Level Deep Dive](images/product_level_deep_dive.png)
+![Product Drill](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/product_level_deep_dive_4_.png)
+*Detailed SKU analysis with quarterly performance, revenue trends, and supplier metrics*
+
+---
 
 ## 🖥️ Dashboard Pages (4 Interactive Views)
 
@@ -58,7 +70,7 @@ Most BI dashboards only show *what happened*. **OptiStock shows what could happe
 - ABC Classification
 - **Who uses it:** Inventory Manager, Finance Analyst
 
-### 3️⃣ **Replenishment & Supplier Performance** ⭐ 
+### 3️⃣ **Replenishment & Supplier Performance** ⭐ *Hero Feature*
 - Dynamic Reorder Point (ROP) flags
 - Products requiring immediate restocking
 - **What-If Supplier Delay Simulator** (interactive slider)
@@ -128,84 +140,3 @@ Seamless navigation from executive KPI → detailed SKU diagnostics:
 ---
 
 ## 📁 Repository Structure
----
-
-## 🚀 How to Use This Dashboard
-
-### **For Power BI Analysts:**
-1. Download `Optistock_Analytics.pbix`
-2. Open in Power BI Desktop
-3. Explore 4 dashboard pages
-4. Use slicers to filter by date, ABC class, supplier
-5. Test the What-If Supplier Delay slider to run scenarios
-
-### **For Supply Chain Teams:**
-1. **Mon-Wed:** Check Executive Overview for weekly KPIs
-2. **Thu:** Review Inventory Health for dead stock & aging products
-3. **Fri:** Use Replenishment page to finalize weekly purchase orders
-4. **As needed:** Use Supplier Delay Simulator for contingency planning
-
----
-
-## 📚 Tech Stack & Skills Demonstrated
-
-| Tool | Usage |
-|------|-------|
-| **Power BI Desktop** | Data modeling, DAX, drill-through, What-If parameters |
-| **DAX** | ROP logic, aging buckets, ABC classification |
-| **SQL** | Data extraction & transformation |
-| **Power Query** | ETL & data cleaning |
-| **Excel** | Data preparation & validation |
-
-**Supply Chain Concepts:**
-- Reorder Point (ROP) Logic
-- ABC Analysis (Pareto principle)
-- Inventory Aging & Dead Stock Management
-- Supplier Performance Metrics
-- What-If Scenario Analysis
-
----
-
-## 🎓 Key Insights from Analysis
-
-✅ **60% of inventory is fresh stock** (0-30 days) — good velocity
-⚠️ **12% is slow-moving** (31-90 days) — consider promotions
-🚨 **28% is dead stock** (90+ days) — $1.64K locked up
-
-✅ **Prime Logistics is most reliable** (85% on-time delivery)
-⚠️ **EuroSupply has lower reliability** (38.67%) — build safety stock
-
-✅ **Peak sales months:** February & March (~$70K revenue)
-⚠️ **Lowest sales:** June-July (~$45K) — seasonal pattern
-
----
-
-## 🤔 Questions This Dashboard Answers
-
-- ❓ What products should we reorder immediately?
-- ❓ How much dead capital is locked in inventory?
-- ❓ Which suppliers are reliable?
-- ❓ What happens if a supplier delays?
-- ❓ Which products generate the most revenue?
-- ❓ Are we at risk of stockouts?
-
----
-
-## 📊 Data Files Description
-
-**dim_product.csv** - Product master data (25 products)
-**dim_supplier.csv** - Supplier information (6 suppliers)
-**fact_sales.csv** - Sales transactions (500+ records)
-**fact_purchase_orders.csv** - Purchase orders (100+ records)
-**fact_inventory_snapshot.csv** - Daily inventory (365 days)
-
----
-
-## 👤 Author
-**Sahil Betals** | Data Analyst | Power BI Developer  
-📧 GitHub: [@sahilbetals-byte](https://github.com/sahilbetals-byte)  
-
----
-
-**Last Updated:** August 2026  
-**Version:** 1.0
