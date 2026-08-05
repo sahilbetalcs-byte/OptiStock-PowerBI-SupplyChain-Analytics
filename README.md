@@ -32,25 +32,25 @@ Most BI dashboards only show *what happened*. **OptiStock shows what could happe
 ## 📸 Dashboard Preview
 
 ### 1️⃣ Executive Overview Dashboard
-![Executive Overview](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/executive_overview_1_.png)
+![Executive Overview](Images/executive_overview(1).png)
 *Displays core KPIs: $658.37K sales revenue, 72.80 inventory turnover, $1.64K dead stock, ABC class analysis*
 
 ---
 
 ### 2️⃣ Inventory Health & Aging Analysis
-![Inventory Health](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/inventory_health_aging__2_.png)
+![Inventory Health](Images/inventory_health_aging%20(2).png)
 *ABC classification and aging analysis to identify dead stock, fresh inventory, and slow-moving products*
 
 ---
 
 ### 3️⃣ Replenishment & Supplier Performance (with What-If Simulator)
-![Reorder Simulator](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/replenishment_supplier_performance_3_.png)
+![Reorder Simulator](Images/replenishment_supplier_performance(3).png)
 *Interactive What-If slider for supplier delay scenarios, ROP flags, and on-time delivery tracking*
 
 ---
 
 ### 4️⃣ Product-Level Deep Dive
-![Product Drill](https://github.com/sahilbetals-byte/OptiStock-PowerBI-SupplyChain-Analytics/raw/main/product_level_deep_dive_4_.png)
+![Product Drill](Images/product_level_deep_dive(4).png)
 *Detailed SKU analysis with quarterly performance, revenue trends, and supplier metrics*
 
 ---
