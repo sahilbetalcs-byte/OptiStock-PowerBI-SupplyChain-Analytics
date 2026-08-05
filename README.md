@@ -154,4 +154,4 @@ Seamless navigation from executive KPI → detailed SKU diagnostics:
 
 ---
 
-## 📁 Repository Structure
+
