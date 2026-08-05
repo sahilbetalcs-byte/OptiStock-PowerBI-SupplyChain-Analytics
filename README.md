@@ -29,6 +29,20 @@ Most BI dashboards only show *what happened*. **OptiStock shows what could happe
 
 ---
 
+## 📊 Dashboard Preview
+
+### 1️⃣ Executive Overview
+![Executive Overview](images/executive_overview.png)
+
+### 2️⃣ Inventory Health & Aging Analysis
+![Inventory Health & Aging Analysis](images/inventory_health_aging.png)
+
+### 3️⃣ Replenishment & Supplier Performance ⭐
+![Replenishment & Supplier Performance](images/replenishment_supplier_performance.png)
+
+### 4️⃣ Product-Level Deep Dive
+![Product-Level Deep Dive](images/product_level_deep_dive.png)
+
 ## 🖥️ Dashboard Pages (4 Interactive Views)
 
 ### 1️⃣ **Executive Overview**
